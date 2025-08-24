@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Litoral News - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Litoral News</h1>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="login-container">
+        <h2>Bem-vindo!</h2>
+        <p>Faça login para acessar as notícias do Litoral Norte.</p>
+
+        <form action="noticias.html" method="GET">
+            <div class="form-group">
+                <label for="usuario">Usuário</label>
+                <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuário" required>
+            </div>
+
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+            </div>
+
+            <button type="submit">Entrar</button>
+        </form>
+
+        <!-- Área para quem não tem cadastro -->
+        <div class="cadastro-link">
+            <p>Não possui cadastro?</p>
+            <a href="cadastro.html">Criar uma conta</a>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Desenvolvido por Renan Silva © 2003</p>
+    </footer>
+</body>
+</html>
